@@ -8,8 +8,12 @@
             "str":"Thrall of Vengeance",
             "cd":15
         },
-        "3":{
+        "67279064":{
             "str":"Adrendaline Rush",
+            "cd":120
+        },
+        "67179164":{
+            "str":"Guardian Shout",
             "cd":120
         }
     }

@@ -19,9 +19,9 @@ module.exports = function PartyCDs(dispatch) {
         }
     })
 	dispatch.hook('S_ACTION_STAGE', 4, event => {
+        if(debug) console.log(`${event.skill} | ${event.stage} | ${event.gameId}`);
         if(event.gameId === selfid) return; // check if self
         if(group.indexOf(event.gameId) < 0) return; // check if group member
-        if(debug) console.log(`${event.skill} | ${event.stage} | ${event.gameId}`);
         for(var skill in skillInfo){
             if(event.skill === skill){
                 name = skillInfo[skill].str;

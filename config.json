@@ -1,14 +1,14 @@
 {
     "skills": {
-        1:{
+        "67440094":{
             "str":"Thrall of Wrath",
             "cd":10
         },
-        2:{
+        "67449594":{
             "str":"Thrall of Vengeance",
             "cd":15
         },
-        3:{
+        "3":{
             "str":"Adrendaline Rush",
             "cd":120
         }
